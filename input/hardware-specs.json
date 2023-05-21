@@ -1,0 +1,14 @@
+{
+    "cnot_fid": 0.9982,
+    "av_gate_time": 4.5e-07,
+    "success_prob": 0.99,
+    "precision": 0.0001,
+    "trot_error": 0.0016,
+    "# Comments": {
+        "cnot_fid": "Falcon R10 IBM device",
+        "av_gate_time": "CNOT gate time",
+        "success_prob": "target success probability",
+        "precision": "target precision in Ha (decimal)",
+        "trot_error": "Chemical accuracy in Hartree"
+    }
+}
