@@ -1,5 +1,8 @@
 Installation instructions:
 
+export PATH="$PATH:/home/mjotten/.dotnet/tools"
+
+
 conda create --name qrechem python=3.7.0
 conda activate qrechem
 apt-get install cmake
@@ -14,4 +17,18 @@ export PATH=$PATH:$HOME/dotnet
 pip install qsharp
 dotnet tool install --global Microsoft.Quantum.Chemistry.Tools
 conda qrechem
+
+
+# Alternate install below
+
+wget https://download.visualstudio.microsoft.com/download/pr/e89c4f00-5cbb-4810-897d-f5300165ee60/027ace0fdcfb834ae0a13469f0b1a4c8/dotnet-sdk-3.1.426-linux-x64.tar.gz
+tar xzf dotnet-sdk-3.1.426-linux-x64.tar.gz -C dotnet
+dotnet tool install --global Microsoft.Quantum.Chemistry.Tools
+
+mamba create --name qrechem python=3.7.0
+mamba install pyscf==2.0.1
+mamba install pandas
+
+
+
 
