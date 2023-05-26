@@ -11,7 +11,7 @@ pip install pandas
 
 The version requirement of .NET (https://learn.microsoft.com/en-us/azure/quantum/install-update-qdk?tabs=tabid-conda)
 .NET version of 6.0 or above for QDK versions of 0.24.201332 and above
-.NET versoin of 3.1 for older QDK version
+.NET version of 3.1 for older QDK version
 
 mkdir -p $HOME/dotnet && tar zxf dotnet-sdk-6.0.408-linux-x64.tar.gz -C $HOME/dotnet
 export DOTNET_ROOT=$HOME/dotnet
