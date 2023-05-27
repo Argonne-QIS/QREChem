@@ -1,0 +1,9 @@
+
+Byoul:
+install from scratch
+and test main.csh
+update documentation 
+
+Matt:
+add OpenFermion support
+
