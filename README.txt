@@ -1,5 +1,5 @@
 
-Structure of the proogram:
+Structure of the program:
 
 1. Read Pyscf-formatted molecule and generate fcidump using input.py
 2. Convert file format to Broombridge: qdk-chem convert --from fcidump --to broombridge output/fcidump --out output/fcidump.yml
